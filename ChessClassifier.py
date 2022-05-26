@@ -7,11 +7,9 @@ import numpy as np
 import os
 os.add_dll_directory("C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.5/bin")
 import sys
-import PIL
 import tensorflow as tf
 
 import pathlib
-import shutil
 
 from tensorflow import keras
 #from tensorflow import confusion_matrix
